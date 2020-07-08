@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/general.css">
+</head>
+
+<body>
+    <div id="fire_work">
+        <form action="">
+            <div class="fire_work">
+                作 业 活 动 : &nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br /><br /> 区域/工艺流程: <input type="text"><br /><br /> 分 析 人 员 : &nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br /><br /> 日 &nbsp;&nbsp;期 &nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date"><br /><br />
+            </div>
+            <table border="1" align="center" bordercolor="#E76BFF" height="800px" cellpadding="1px" cellspacing="0px" width="900px">
+                <!-- rowspan colspan -->
+                <tr align="center">
+                    <td>作业类型</td>
+                    <td>序号</td>
+                    <td>工作步骤</td>
+                    <td>危害描述</td>
+                    <td>现有控制措施</td>
+                    <td>补充措施</td>
+                    <td>确认人</td>
+                </tr>
+                <tr>
+                    <td rowspan="16">用火作业</td>
+                    <td rowspan="6">1</td>
+                    <td rowspan="6">作业前安全措施确认</td>
+                    <td>
+                        <input type="checkbox" name="choice_1" value="1_1">人员无相关职业操作证</td>
+                    <td>值护人员仔细核对人员特殊作业证件，并扫描留存</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_1" value="1_2">作业人员安全意识不足</td>
+                    <td>现场监护人应对作业人员进行必要的安全教育，内容包括作业的安全//技术交底、作业中可能遇到意外时的处理和救护方法</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_1" value="1_3">设备缺陷</td>
+                    <td>对设备进行检查和安全评价，确认设施完整性</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5">按照标准，规范认真检查物资实物与质量合格证明资料</textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_1" value="1_4">作业现场及周围存在易燃物品</td>
+                    <td>用火点周围要清除易燃物，下水井，地涌、地沟，电现沟等处采取覆盖，铺沙，水封等手段进行陽离</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5">用火点30米以内严禁排放各类可燃气体：15米范围内严禁排放各类可燃液体，也不可进行装卸作业</textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_1" value="1_5">作业前未进行可燃气体检测或检测不达标</td>
+                    <td>分析检测数据小于0.5%为合格</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_1" value="1_6">缺乏紧急情况应对措施</td>
+                    <td>制定应急预案（内容包括：作业人员紧急状况时的逃生路线和救护方法，现场应配备救护设施和灭火器材等）</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+
+                <tr>
+
+                    <td rowspan="8">2</td>
+                    <td rowspan="8">操作期间安全措施确认</td>
+                    <td><input type="checkbox" name="choice_2" value="2_1">作业人员操作不规范</td>
+                    <td>按规定着装，穿戴必要的劳保防护用品；发现操作不规范情况立即制止并警告</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_2">作业过程中造成人员伤害</td>
+                    <td>严禁抛掷、扔传、乱投工具、物料等物品；严格按照操作规程作业，电镐及电源线必须无破损完好状态</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_3">作业环境不良</td>
+                    <td>保持良好通风，必要时进行强制通风；雷雨天气不宜进行作业</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_4">介质泄漏</td>
+                    <td>对各试验接头，压力表、连接件等质量检查，开孔机组装后按照管道运行压力进行整体试压；对关键阀门等挂签上锁，天然气泄漏引流到放空火炬，立即上报关闭流程、减少漏量</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_5">火灾爆炸</td>
+                    <td>控制火源：设备放在上风口，采用盖土、干粉覆盖、水雾隔离等隔绝易燃物，防爆轴流风机</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_6">环境污染</td>
+                    <td>回收场地内的各种垃圾</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_7">现场未配备灭火器、安全警示标志、安全警戒线</td>
+                    <td>现场配备灭火器和设置安全警示标志</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="choice_2" value="2_8">作业监护不到位及现场监控不足</td>
+                    <td>监护人应佩戴明显标志，进行全程监护，不得随意离开现场，作业现场应采取视频监控</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+
+                    <td rowspan="2">3</td>
+                    <td rowspan="2">作业结束安全措施确认</td>
+                    <td><input type="checkbox" name="choice_3" value="3_1">作业完毕未清理现场</td>
+                    <td>作业结東后，作业人员必须清理现场，消除残留风险，监护人员应认真检查现场是否有火种</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice_3" value="3_2">未进行完工验收</td>
+                    <td>进行完工验收后，方能结束作业</td>
+                    <td><textarea name="put" class="textarea" cols="20" rows="5"></textarea></td>
+                    <td><input type="text" class="text"></td>
+                </tr>
+
+            </table>
+            <input type="submit" id="button" value="提交">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+#login {
+    margin-top: 210px;
+    margin-left: 550px;
+}
+
+#login .login_2 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#login .login_3 a {
+    text-decoration: none;
+    color: gray;
+}
+
+#login .login_3 a:hover {
+    color: rgb(81, 119, 225);
+}
+
+#login .login_3 .a_1 {
+    padding-left: 111px;
+}

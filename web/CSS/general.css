@@ -1,0 +1,25 @@
+#fire_work .text {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+    font-family: "微软雅黑";
+}
+
+#fire_work .textarea {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+    font-family: "微软雅黑";
+}
+
+.fire_work {
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+#button {
+    margin-top: 50px;
+    margin-left: 600px;
+}
